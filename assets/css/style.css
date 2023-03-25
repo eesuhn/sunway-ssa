@@ -10840,10 +10840,11 @@ textarea.form-control-lg {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   display: inline-block;
-  background-image: linear-gradient(to right, #9926f0, #d122e3);
+  background-image: linear-gradient(to right, #3b5998, #4b6dac);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-bottom: 0.8rem;
 }
 @media (min-width: 992px) {
   .display-3--title {
@@ -11261,5 +11262,76 @@ textarea.form-control-lg {
 @media (min-width: 1200px) {
   .intro-section {
     padding-top: 12rem;
+  }
+}
+
+.services p.fw-normal {
+  font-size: 1rem;
+}
+
+.services h2.fw-normal {
+  font-size: 1.4rem;
+}
+
+.services h2.fw-bold {
+  color : #3d5c9b;
+}
+
+.services__content .icon {
+  color : #3d5c9b;
+  margin-bottom: 0.8rem;
+}
+
+.services__content p.lh-lg {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-right: 6rem;
+}
+
+@media (min-width: 576px) {
+  .services__pic img {
+    height: 22rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .services__pic img {
+    height: 24rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .services__pic img {
+    height: 26rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .services__pic img {
+    height: 28rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .departments-pad {
+    padding-left: 0rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .departments-pad {
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .departments-pad {
+    padding-left: 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .departments-pad {
+    padding-left: 6rem;
   }
 }
