@@ -498,7 +498,7 @@
     const backToTopButton = document.getElementById("back-to-top");
 
     window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 0 && window.pageYOffset < (document.documentElement.scrollHeight - window.innerHeight)) {
+      if (window.pageYOffset > 0 && window.innerHeight + window.pageYOffset < document.body.offsetHeight) {
         backToTopButton.style.display = "block";
       } else {
         backToTopButton.style.display = "none";
