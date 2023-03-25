@@ -478,6 +478,7 @@ progress {
   font-size: calc(1.575rem + 3.9vw);
   font-weight: 300;
   line-height: 1.2;
+  cursor: context-menu;
 }
 @media (min-width: 1200px) {
   .display-2 {
@@ -10934,6 +10935,7 @@ textarea.form-control-lg {
 .services {
   position: relative;
   padding: 1rem 0;
+  cursor: context-menu;
 }
 .services__content {
   padding: 1rem;
@@ -10969,6 +10971,7 @@ textarea.form-control-lg {
   position: relative;
   padding: 0;
   background: linear-gradient(to bottom, #3b5998, #5c84c3);
+  cursor: context-menu;
 }
 .testimonials__card {
   background-color: rgba(255, 255, 255, 0.8);
@@ -11115,6 +11118,7 @@ textarea.form-control-lg {
 .footer {
   padding-top: 1rem;
   background-color: #151414;
+  cursor: context-menu;
 }
 
 .contact-box {
@@ -11375,4 +11379,21 @@ textarea.form-control-lg {
 
 .faq-button, .faq-button-top {
   border-radius: 6px !important;
+}
+
+a.back-to-top:hover {
+  background-color: #da8e00 !important;
+}
+
+.social-icon a:hover {
+  color: #3d5c9b !important;
+  text-decoration: none;
+}
+
+.departmental {
+  cursor: context-menu;
+}
+
+.faq {
+  cursor: context-menu;
 }
