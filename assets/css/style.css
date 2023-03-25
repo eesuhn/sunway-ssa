@@ -10866,7 +10866,7 @@ textarea.form-control-lg {
 }
 
 .menu {
-  background: linear-gradient(to right, #2980b9, #6dd5fa);
+  background: linear-gradient(to top, #3b5998, #4b6dac);
 }
 .menu li {
   padding: 0 0.7rem;
@@ -10881,7 +10881,7 @@ textarea.form-control-lg {
 }
 
 .intro-section {
-  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  background: linear-gradient(to bottom, #3b5998, #5c84c3);
   padding: 10rem 0 0 0;
   width: 100%;
   height: 100%;
@@ -11227,4 +11227,39 @@ textarea.form-control-lg {
   font-size: 1rem;
   font-weight: 600;
   color: #fff;
+}
+
+.display-2--intro {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.display-2--description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-right: 1rem;
+}
+
+@media (min-width: 576px) {
+  .intro-section {
+    padding-top: 12rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro-section {
+    padding-top: 12rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .intro-section {
+    padding-top: 12rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro-section {
+    padding-top: 12rem;
+  }
 }
