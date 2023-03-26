@@ -10914,10 +10914,10 @@ textarea.form-control-lg {
   animation-delay: 1.5s;
 }
 
-.campanies {
+.companies {
   padding: 0 0 5rem 0;
 }
-.campanies__logo-box {
+.companies__logo-box {
   max-width: 100%;
   height: 3rem;
   margin-bottom: 2rem;
@@ -10925,10 +10925,10 @@ textarea.form-control-lg {
   text-align: center;
   position: relative;
 }
-.campanies__logo-box img {
+.companies__logo-box img {
   height: 100%;
 }
-.campanies__logo-box img:hover {
+.companies__logo-box img:hover {
   filter: grayscale(120);
 }
 
@@ -11372,8 +11372,8 @@ textarea.form-control-lg {
 .initiative-title-border {
   display: inline-block;
   box-sizing: border-box;
-  padding: 0.6rem 3rem;
-  border-radius: 50px;
+  padding: 0.4rem 1.8rem;
+  border-radius: 30px;
   background-color: #fff;
 }
 
@@ -11390,10 +11390,18 @@ a.back-to-top:hover {
   text-decoration: none;
 }
 
+.social-icon a {
+  margin-left: 0.4rem;
+}
+
 .departmental {
   cursor: context-menu;
 }
 
 .faq {
   cursor: context-menu;
+}
+
+.initiative-row .col-md-6 {
+  margin-bottom: 0.6rem; 
 }
