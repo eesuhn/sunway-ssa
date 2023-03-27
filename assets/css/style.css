@@ -11293,6 +11293,10 @@ textarea.form-control-lg {
   padding-right: 6rem;
 }
 
+.services__pic img {
+  object-fit: cover;
+}
+
 @media (min-width: 576px) {
   .services__pic img {
     height: 22rem;
